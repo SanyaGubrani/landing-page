@@ -10,6 +10,8 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
+/*Nav Bar*/
+
 .main-nav{
     height: 55px;
     background-color: rgb(0, 0, 0);
@@ -29,6 +31,8 @@ body {
     color: white;
     cursor: pointer;
 }
+
+/*Section-One*/
 
 .section-one{
     display: flex;
@@ -90,6 +94,8 @@ body {
     opacity: 0.6;
 }
 
+/*Section-Two*/
+
 .section-two{
     display: flex;
     flex-direction: column;
@@ -150,6 +156,8 @@ body {
     letter-spacing: 0.08em;
 }
 
+/*Section-Three*/
+
 .section-three{
     height: 60vh;
     background: linear-gradient(to top, rgba(80, 12, 12, 0.777), black);
@@ -159,6 +167,8 @@ body {
     text-align: center;
     padding: 0 4rem;
 }
+
+/*Section-Four*/
 
 .section-four{
     height: 50vh;
@@ -190,6 +200,8 @@ body {
     font-size: 1rem;
 }
 
+/*Footer*/
+
 .main-footer{
     color: #ffffffa9;
     text-align: center;
@@ -197,6 +209,9 @@ body {
     padding: 1rem;
     font-size: 1.1rem;
 }
+
+
+/*Media Queries*/
 
 @media(max-width:945px) {
     
